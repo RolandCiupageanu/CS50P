@@ -15,7 +15,7 @@ def main():
 
 def shirt(s):
     pdf = PDF()
-    pdf.add_page(orientation="portrait", format="a4")
+    pdf.add_page(orientation="portrait")
     pdf.set_font("helvetica", size=24)
     pdf.set_text_color(255,255,255)
     pdf.cell(0, 213, f"{s} took CS50", align="C")
